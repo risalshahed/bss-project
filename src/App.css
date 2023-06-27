@@ -1,0 +1,24 @@
+body {
+  max-width: 100%;
+}
+/* -----------------------------------------------------
+    Design of React Player
+----------------------------------------------------- */
+.player-wrapper {
+  flex-basis: 75%;
+  height: 400px;
+}
+.react-player {
+  width: 100% !important;
+  height: 100% !important;
+}
+/* responsive design for React Player */
+@media (max-width: 719px) {
+  .wrapper-container {
+    align-items: center;
+  }
+  
+  .wrapper-container > div {    
+    width: 100%;
+  }
+}
